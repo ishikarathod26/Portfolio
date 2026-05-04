@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ishika Rathod | Java Developer Portfolio</title>
+    <meta name="description" content="Portfolio of Ishika Rathod, an aspiring Java Developer specialized in scalable applications.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts: Outfit and Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="light-theme">
+    <div id="scroll-progress"></div>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">Ishika Rathod<span>.</span></div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle" aria-label="Toggle Theme">
+                    <i data-lucide="moon"></i>
+                </button>
+                <div class="mobile-menu-btn">
+                    <i data-lucide="menu"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1 class="fade-in">Hi, I'm <span class="highlight">Ishika Rathod</span></h1>
+                <div class="typewriter-container">
+                    <span id="typing-text"></span><span class="cursor">|</span>
+                </div>
+                <p class="hero-tagline fade-in delay-1">Crafting reliable, scalable, and high-performance backend solutions with a passion for problem-solving.</p>
+                <div class="hero-btns fade-in delay-2">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    <a href="ISHIKA Resume.pdf" target="_blank" class="btn btn-outline">
+                        <i data-lucide="download"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+            <div class="hero-scroll-hint">
+                <i data-lucide="chevron-down" class="bounce"></i>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text scroll-reveal">
+                        <p>Aspiring Java Developer seeking an opportunity to contribute to the development of reliable, scalable, and high-performance applications while continuously enhancing my skills in Java. Eager to apply my problem-solving abilities and programming knowledge to build efficient backend solutions and grow in a dynamic and challenging development environment.</p>
+                        <p>My career goals revolve around mastering backend architecture and contributing to technology-driven solutions that solve real-world problems efficiently.</p>
+                        <div class="personal-info">
+                            <div class="info-item"><i data-lucide="languages"></i> <span>Languages: English, Hindi</span></div>
+                            <div class="info-item"><i data-lucide="map-pin"></i> <span>Location: Indore, MP</span></div>
+                        </div>
+                    </div>
+                    <div class="about-stats scroll-reveal">
+                        <div class="stat-card">
+                            <h3>Strengths</h3>
+                            <ul>
+                                <li><i data-lucide="check-circle"></i> Adaptable</li>
+                                <li><i data-lucide="check-circle"></i> Proactive</li>
+                            </ul>
+                        </div>
+                        <div class="stat-card">
+                            <h3>Growth Areas</h3>
+                            <ul>
+                                <li><i data-lucide="trending-up"></i> Vocabulary</li>
+                                <li><i data-lucide="trending-up"></i> Presentation Skills</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section alt-bg">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="timeline">
+                    <div class="timeline-item scroll-reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>B.Tech (CSIT)</h3>
+                            <p class="institution">Acropolis Institute of Technology, Indore</p>
+                            <p class="duration">2023 - 2027</p>
+                            <p class="detail">Affiliated to RGPV Bhopal | Current CGPA: 6.62</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item scroll-reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>HSC (CBSE)</h3>
+                            <p class="institution">St. Joseph Senior Secondary School</p>
+                            <p class="duration">2022</p>
+                            <p class="detail">Percentage: 65.6%</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item scroll-reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>SSC (CBSE)</h3>
+                            <p class="institution">St. Joseph Senior Secondary School</p>
+                            <p class="duration">2020</p>
+                            <p class="detail">Percentage: 80%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category scroll-reveal">
+                        <h3>Core Engineering</h3>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Java</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>OOPS</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="90%"></div></div>
+                        </div>
+                    </div>
+                    <div class="skill-category scroll-reveal">
+                        <h3>Tools & Others</h3>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>IoT & PIR Sensors</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="75%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>GSM Module Integration</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="70%"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section alt-bg">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-container">
+                    <div class="project-card scroll-reveal">
+                        <div class="project-content">
+                            <h3>AniGuard</h3>
+                            <p class="project-role">Animal Intrusion Detection & Deterrent System</p>
+                            <p class="project-desc">A smart IoT-based prototype designed to prevent crop damage by detecting animal intrusions using PIR sensors. The system activates safe deterrents and sends real-time alerts via GSM, supporting sustainable agriculture.</p>
+                            <div class="tech-stack">
+                                <span>IoT</span>
+                                <span>PIR Sensor</span>
+                                <span>GSM</span>
+                                <span>Database</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/ishikarathod26" target="_blank" class="project-link"><i data-lucide="github"></i> Repository</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="section">
+            <div class="container">
+                <h2 class="section-title">Certifications</h2>
+                <div class="docs-grid">
+                    <div class="doc-card scroll-reveal">
+                        <div class="doc-icon"><i data-lucide="award"></i></div>
+                        <h3>NPTEL OOPS</h3>
+                        <p>Fundamentals of Object Oriented Programming</p>
+                        <a href="CERTIFICATES/NPTEL OOPS.pdf" target="_blank" class="btn btn-sm">View Certificate</a>
+                    </div>
+                    <div class="doc-card scroll-reveal">
+                        <div class="doc-icon"><i data-lucide="award"></i></div>
+                        <h3>Oracle Global</h3>
+                        <p>Professional Certification</p>
+                        <a href="CERTIFICATES/Oracle.pdf" target="_blank" class="btn btn-sm">View Certificate</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Academic Records Section -->
+        <section id="records" class="section alt-bg">
+            <div class="container">
+                <h2 class="section-title">Academic Records</h2>
+                <div class="records-grid">
+                    <div class="record-item scroll-reveal">
+                        <span>10th Marksheet</span>
+                        <a href="MARKSHEET/10th_marksheet.jpeg" target="_blank" class="link-btn">View Document</a>
+                    </div>
+                    <div class="record-item scroll-reveal">
+                        <span>12th Marksheet</span>
+                        <a href="MARKSHEET/12th_marksheet.jpeg" target="_blank" class="link-btn">View Document</a>
+                    </div>
+                    <div class="record-item scroll-reveal">
+                        <span>Semester 1</span>
+                        <a href="MARKSHEET/first sem.pdf" target="_blank" class="link-btn">View Document</a>
+                    </div>
+                    <div class="record-item scroll-reveal">
+                        <span>Semester 2</span>
+                        <a href="MARKSHEET/second sem.pdf" target="_blank" class="link-btn">View Document</a>
+                    </div>
+                    <div class="record-item scroll-reveal">
+                        <span>Semester 3</span>
+                        <a href="MARKSHEET/third sem.pdf" target="_blank" class="link-btn">View Document</a>
+                    </div>
+                    <div class="record-item scroll-reveal">
+                        <span>Semester 4</span>
+                        <a href="MARKSHEET/fourth sem.pdf" target="_blank" class="link-btn">View Document</a>
+                    </div>
+                    <div class="record-item scroll-reveal">
+                        <span>Semester 5</span>
+                        <a href="MARKSHEET/Fifth sem.pdf" target="_blank" class="link-btn">View Document</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hobbies Section -->
+        <section id="hobbies" class="section">
+            <div class="container">
+                <h2 class="section-title">Hobbies & Interests</h2>
+                <div class="hobbies-grid">
+                    <div class="hobby-card scroll-reveal">
+                        <i data-lucide="book-open"></i>
+                        <span>Reading</span>
+                    </div>
+                    <div class="hobby-card scroll-reveal">
+                        <i data-lucide="music"></i>
+                        <span>Dance</span>
+                    </div>
+                    <div class="hobby-card scroll-reveal">
+                        <i data-lucide="code"></i>
+                        <span>Development</span>
+                    </div>
+                    <div class="hobby-card scroll-reveal">
+                        <i data-lucide="lightbulb"></i>
+                        <span>Problem Solving</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section alt-bg">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-grid">
+                    <div class="contact-info scroll-reveal">
+                        <div class="contact-item">
+                            <i data-lucide="mail"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>ishikarathod231008@acropolis.in</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i data-lucide="linkedin"></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <p><a href="https://www.linkedin.com/in/ishika-rathod-90449a326" target="_blank">ishika-rathod</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i data-lucide="github"></i>
+                            <div>
+                                <h4>GitHub</h4>
+                                <p><a href="https://github.com/ishikarathod26" target="_blank">ishikarathod26</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i data-lucide="phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91 9516265490</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form scroll-reveal">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Ishika Rathod. Built with passion & Java. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
